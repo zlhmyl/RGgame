@@ -1,7 +1,7 @@
-source 'https://mirrors.aliyun.com/rubygems'
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
+ruby '2.7.0'
 
 gem 'bootstrap-sass'
 # Use ActiveModel has_secure_password
@@ -18,7 +18,12 @@ gem 'roo-xls'
 gem 'paper_trail'
 gem 'rubyzip'
 gem 'rails-i18n'
+gem 'mini_magick'
+gem 'kaminari'
 
+
+
+#gem"db"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 # Use sqlite3 as the database for Active Record
@@ -76,3 +81,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
