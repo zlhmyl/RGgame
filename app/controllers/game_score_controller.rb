@@ -1,0 +1,2 @@
+class GameScoreController < ApplicationController
+end

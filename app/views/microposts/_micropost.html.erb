@@ -1,0 +1,14 @@
+<li id="micropost-<%= micropost.id %>">
+  <%= link_to gravatar_for(micropost.user, size: 50), micropost.user %>
+  <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
+  <span class="title"><%= link_to micropost.title, micropost %></span>
+  <span class="tags"><%= micropost.tags %></span>
+  <span class="content"><%= micropost.content %></span>
+  <span class="timestamp">
+    <%= time_ago_in_words(micropost.created_at) %> 前发布.
+    <% if current_user?(micropost.user) %>
+      <%= link_to "删除", micropost, method: :delete,
+                                       data: { confirm: "确定删除吗?" } %>
+    <% end %>
+  </span>
+</li>

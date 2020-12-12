@@ -1,0 +1,8 @@
+<%= form_for(@micropost) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="field">
+    <%= f.text_field :title, placeholder: "填写标题..." %>
+    <%= f.text_area :content, placeholder: "填写想要发布的内容..." %>
+  </div>
+  <%= f.submit "发布", class: "btn btn-primary" %>
+<% end %>
