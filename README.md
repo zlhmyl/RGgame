@@ -1,24 +1,39 @@
-# README
+# RGgame
+基于Ruby on rails 的校园桌游平台
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### 实现功能：
+* 用户注册
+* 用户登录
+* 添加桌游
+* 给每项桌游打分
+* 在讨论区发表帖子
+* 查看他人主页和发帖记录
+* 关注其他用户并查看列表
 
-Things you may want to cover:
 
-* Ruby version
+### 说明
 
-* System dependencies
+项目中主要使用的库：
 
-* Configuration
+> Bootstrap, Sqlite3, Rails admin, 详情见Gemfile
 
-* Database creation
+使用前需要安装Bundler,Gem,Ruby,Rails等依赖环境。
 
-* Database initialization
+### 安装
 
-* How to run the test suite
+实验环境为：Ubuntu20.04 LTS，进入项目后分别执行如下：
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ cd RGgame
+$ rake db:migrate
+$ rake db:seed
+$ rails s 
+```
+在浏览器的地址栏中输入`localhost:3000`访问项目主页
 
-* Deployment instructions
+默认管理员账户为：
 
-* ...
+账号：`admin@test.com`
+
+密码：`password`
+
