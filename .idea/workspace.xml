@@ -19,23 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/game/_game.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/game/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/game/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/game/show.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RGgame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RGgame.iml" afterDir="false" />
+    <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/game_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/game.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/game/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/game/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/game/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/game/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20201204144019_create_games.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/game_score.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/_game.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/game/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201204144016_create_game_scores.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/game_scores.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/game_score_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lPcEb4cftn51hwEbY3MFohPzqz" />
@@ -52,8 +64,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/game" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/games" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +74,7 @@
       <recent name="$PROJECT_DIR$/app/views/game" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: RGgame">
+  <component name="RunManager" selected="Rails.Production: RGgame">
     <configuration name="Development: RGgame" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="RGgame" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -170,8 +183,24 @@
       <option name="presentableId" value="Default" />
       <updated>1607502056014</updated>
       <workItem from="1607502057207" duration="135000" />
-      <workItem from="1609995632592" duration="1518000" />
+      <workItem from="1609995632592" duration="2458000" />
+      <workItem from="1610003660662" duration="1679000" />
     </task>
+    <task id="LOCAL-00001" summary="妙啊">
+      <created>1609997380606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609997380606</updated>
+    </task>
+    <task id="LOCAL-00002" summary="妙啊">
+      <created>1609997390468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609997390468</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,5 +216,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="妙啊" />
+    <option name="LAST_COMMIT_MESSAGE" value="妙啊" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609997878710">
+      <screen x="72" y="27" width="2086" height="1185" />
+    </state>
+    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.2086.1185@72.27.2086.1185" timestamp="1609997878710" />
+    <state x="779" y="286" key="run.anything.popup" timestamp="1610004889549">
+      <screen x="72" y="27" width="2086" height="1188" />
+    </state>
+    <state x="779" y="286" key="run.anything.popup/72.27.2086.1188@72.27.2086.1188" timestamp="1610004889549" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RGgame@Production__RGgame.rcov" NAME="Production: RGgame Coverage Results" MODIFIED="1610005320664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RGgame" />
   </component>
 </project>
