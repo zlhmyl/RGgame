@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊" />
+    <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/games" />
       <recent name="$PROJECT_DIR$/app/views/game" />
     </key>
   </component>
@@ -177,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609997390468</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="妙啊">
+      <created>1610157491467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610157491467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,10 +220,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="妙啊" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610157486719">
+    <state x="848" y="368" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610160825200">
       <screen x="72" y="27" width="2086" height="1185" />
     </state>
-    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.2086.1185@72.27.2086.1185" timestamp="1610157486719" />
+    <state x="848" y="368" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.2086.1185@72.27.2086.1185" timestamp="1610160825200" />
+    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610157571840">
+      <screen x="72" y="27" width="2086" height="1185" />
+    </state>
+    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.2086.1185@72.27.2086.1185" timestamp="1610157571840" />
     <state x="779" y="286" key="run.anything.popup" timestamp="1610004889549">
       <screen x="72" y="27" width="2086" height="1188" />
     </state>
