@@ -20,15 +20,15 @@
         <td><%= game.type %></td>
         <td><%= game.info %></td>
         <td><%= game.score %></td>
-
         <td><%= link_to '桌游详情', game %></td>
-
-      </tr>
+        <% if logged_in? %>
+        <td><%= link_to '打分', edit_game_path(game) %></td>
+        <% end %>
+             </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
 
 

@@ -20,17 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
+      <change afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/new.html.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20210107052523_create_games.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210107052523_create_games.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lPcEb4cftn51hwEbY3MFohPzqz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -175,6 +178,7 @@
       <workItem from="1607502057207" duration="135000" />
       <workItem from="1609995632592" duration="2458000" />
       <workItem from="1610003660662" duration="1679000" />
+      <workItem from="1610165296153" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="妙啊">
       <created>1609997380606</created>
@@ -197,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610157491467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="妙啊">
+      <created>1610162443717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610162443717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

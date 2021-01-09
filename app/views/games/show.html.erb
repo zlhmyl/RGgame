@@ -19,9 +19,7 @@
   <strong>Score:</strong>
   <%= @game.score %>
 </p>
-
-
-<%= link_to '桌游打分', root_path %> |
+<% if logged_in? %>
+   <%= link_to '桌游打分', edit_game_path(@game) %> |
+<% end %>
 <%= link_to '返回', games_path %>
-
-

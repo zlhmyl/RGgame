@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
-  before_action :set_game, only: [:show, :edit, :update, ]
-
+  before_action :set_game, only: [:show, :edit, :update, :destroy]
+  @@score_all = 0
   # GET /games
   # GET /games.json
   def index
@@ -12,7 +12,10 @@ class GamesController < ApplicationController
   def show
   end
 
-
+  # GET /games/new
+  def new
+    @game = Game.new
+  end
 
   # GET /games/1/edit
   def edit
@@ -20,10 +23,33 @@ class GamesController < ApplicationController
 
   # POST /games
   # POST /games.json
-   def update
+  def create
+    @game = Game.new(game_params)
+
     respond_to do |format|
-      if @game.update(game_params)
-        format.html { redirect_to @game, notice: 'Game was successfully updated.' }
+      if @game.save
+        format.html { redirect_to @game, notice: 'Game was successfully created.' }
+        format.json { render :show, status: :created, location: @game }
+      else
+        format.html { render :new }
+        format.json { render json: @game.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PATCH/PUT /games/1
+  # PATCH/PUT /games/1.json
+  def update
+    respond_to do |format|
+      logger.debug(game_params)
+      @game = Game.find_by_id(@game.id)
+      number= @game.human
+      @game.human= @game.human+1
+      old = @game.score
+      xin = game_params[:score]
+      v = (Float(number)*Float(old)+Float(xin))/(Float(number)+1)
+      if @game.update({"score":v})
+        format.html { redirect_to @game, notice: '打分成功' }
         format.json { render :show, status: :ok, location: @game }
       else
         format.html { render :edit }
@@ -32,9 +58,18 @@ class GamesController < ApplicationController
     end
   end
 
-
+  # DELETE /games/1
+  # DELETE /games/1.json
+  def destroy
+    @game.destroy
+    respond_to do |format|
+      format.html { redirect_to games_url, notice: 'Game was successfully destroyed.' }
+      format.json { head :no_content }
+    end
+  end
 
   private
+
   # Use callbacks to share common setup or constraints between actions.
   def set_game
     @game = Game.find(params[:id])

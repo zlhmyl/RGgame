@@ -25,20 +25,11 @@ ActiveRecord::Schema.define(version: 2021_01_07_052523) do
     t.index ["micropost_id"], name: "index_comments_on_micropost_id"
   end
 
-  create_table "game_scores", force: :cascade do |t|
-    t.integer "game_id"
-    t.integer "user_id"
-    t.integer "score"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["game_id"], name: "index_game_scores_on_game_id"
-    t.index ["user_id"], name: "index_game_scores_on_user_id"
-  end
-
   create_table "games", force: :cascade do |t|
     t.string "name"
     t.string "type"
     t.string "info"
+    t.integer "human"
     t.string "score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
