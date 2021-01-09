@@ -19,30 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/game_score.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/_form.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/_game.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/edit.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/new.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/show.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20201204144016_create_game_scores.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/game_scores.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/game_score_test.rb" beforeDir="false" />
-    </list>
+    <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,10 +200,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="妙啊" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609997878710">
+    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610157486719">
       <screen x="72" y="27" width="2086" height="1185" />
     </state>
-    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.2086.1185@72.27.2086.1185" timestamp="1609997878710" />
+    <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.2086.1185@72.27.2086.1185" timestamp="1610157486719" />
     <state x="779" y="286" key="run.anything.popup" timestamp="1610004889549">
       <screen x="72" y="27" width="2086" height="1188" />
     </state>
