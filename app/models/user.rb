@@ -2,8 +2,7 @@ class User < ApplicationRecord
     validates :name, presence: true, length: {maximum: 50}
     validates :password, presence: true, length: {minimum: 6}
 
-    has_many :game_scores 
-    has_many :games, through: :game_scores
+
     has_many :microposts, dependent: :destroy
     has_many :active_relationships, class_name: "Relationship",
              foreign_key: "follower_id",

@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2021_01_07_052523) do
     t.string "type"
     t.string "info"
     t.integer "human"
-    t.string "score"
+    t.string "point"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

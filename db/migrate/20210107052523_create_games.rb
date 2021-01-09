@@ -5,7 +5,7 @@ class CreateGames < ActiveRecord::Migration[5.2]
       t.string :type
       t.string :info
       t.integer :human
-      t.string :score
+      t.string :point
 
       t.timestamps
     end

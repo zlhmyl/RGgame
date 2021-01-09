@@ -20,7 +20,7 @@
 
 <p>
   <strong>Score:</strong>
-  <%= @game.score %>
+  <%= @game.point %>
 </p>
 <% if logged_in? %>
    <%= link_to '桌游打分', edit_game_path(@game) %> |

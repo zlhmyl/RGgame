@@ -45,8 +45,8 @@ class GamesController < ApplicationController
       @game = Game.find_by_id(@game.id)
       number= @game.human
       @game.human= @game.human+1
-      old = @game.score
-      xin = game_params[:score]
+      old = @game.point
+      xin = game_params[:point]
       v = (Float(number)*Float(old)+Float(xin))/(Float(number)+1)
       if @game.update({"score":v})
         format.html { redirect_to @game, notice: '打分成功' }
@@ -77,6 +77,6 @@ class GamesController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def game_params
-    params.require(:game).permit(:name, :type, :info, :score)
+    params.require(:game).permit(:name, :type, :info, :point)
   end
 end

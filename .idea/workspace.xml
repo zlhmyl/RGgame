@@ -20,24 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
-      <change afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/game.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/game_score.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/game.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/game_score.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/game_score_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/game_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/game_score_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/migrate/20210107052523_create_games.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210107052523_create_games.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/game_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/game_score_controller_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -60,6 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/games" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -178,7 +190,9 @@
       <workItem from="1607502057207" duration="135000" />
       <workItem from="1609995632592" duration="2458000" />
       <workItem from="1610003660662" duration="1679000" />
-      <workItem from="1610165296153" duration="2386000" />
+      <workItem from="1610165296153" duration="2526000" />
+      <workItem from="1610173326736" duration="4390000" />
+      <workItem from="1610179491059" duration="7343000" />
     </task>
     <task id="LOCAL-00001" summary="妙啊">
       <created>1609997380606</created>
@@ -208,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610162443717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="妙啊">
+      <created>1610167688903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610167688903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,18 +252,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="妙啊" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="826" y="421" width="567" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610183780214">
+      <screen x="72" y="27" width="2086" height="1185" />
+    </state>
+    <state x="826" y="421" width="567" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.2086.1185@72.27.2086.1185" timestamp="1610183780214" />
     <state x="848" y="368" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610160825200">
       <screen x="72" y="27" width="2086" height="1185" />
     </state>
     <state x="848" y="368" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.2086.1185@72.27.2086.1185" timestamp="1610160825200" />
+    <state x="604" y="254" width="1022" height="737" key="SettingsEditor" timestamp="1610182572566">
+      <screen x="72" y="27" width="2086" height="1185" />
+    </state>
+    <state x="604" y="254" width="1022" height="737" key="SettingsEditor/72.27.2086.1185@72.27.2086.1185" timestamp="1610182572566" />
     <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610157571840">
       <screen x="72" y="27" width="2086" height="1185" />
     </state>
     <state x="710" y="355" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.2086.1185@72.27.2086.1185" timestamp="1610157571840" />
+    <state x="896" y="534" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610182221700">
+      <screen x="72" y="27" width="2086" height="1185" />
+    </state>
+    <state x="896" y="534" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.2086.1185@72.27.2086.1185" timestamp="1610182221700" />
     <state x="779" y="286" key="run.anything.popup" timestamp="1610004889549">
       <screen x="72" y="27" width="2086" height="1188" />
     </state>
     <state x="779" y="286" key="run.anything.popup/72.27.2086.1188@72.27.2086.1188" timestamp="1610004889549" />
+    <state x="778" y="292" width="672" height="678" key="search.everywhere.popup" timestamp="1610183913573">
+      <screen x="72" y="27" width="2086" height="1185" />
+    </state>
+    <state x="778" y="292" width="672" height="678" key="search.everywhere.popup/72.27.2086.1185@72.27.2086.1185" timestamp="1610183913573" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RGgame@Production__RGgame.rcov" NAME="Production: RGgame Coverage Results" MODIFIED="1610005320664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RGgame" />

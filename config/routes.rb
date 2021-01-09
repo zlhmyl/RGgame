@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'home#index'
   resources :games
   get 'games/index', to: 'games#index'
-
+  resources :users
   get '/signup', to: 'users#new'
   get '/home', to: 'static_pages#home'
   get 'sessions/login' => 'sessions#new'
