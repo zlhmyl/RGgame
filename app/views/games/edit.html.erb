@@ -1,4 +1,10 @@
-<h1>桌游打分</h1>
+<div class="container">
+  <div class="col-sm-offset-3 col-sm-6">
+    <div class="panel">
+      <div class="panel-heading">
+        <h1>桌游打分</h1>
+      </div>
+      <div class="panel-body">
 
 <%= form_with(model: @game, local: true) do |f| %>
 
@@ -45,3 +51,8 @@
 
 <%= link_to '桌游展示', @game %> |
 <%= link_to '返回', games_path %>
+
+      </div>
+    </div>
+  </div>
+</div>
