@@ -44,13 +44,10 @@ class GamesController < ApplicationController
       logger.debug(game_params)
       @game = Game.find_by_id(@game.id)
       number= @game.human
-      puts number
       @game.human= @game.human+1
       old = @game.point
-      puts old
       xin = game_params[:point]
-      puts xin
-      v = (Float(number)*Float(old)+Float(xin))/(Float(number)+1)
+      v = ((Float(number)*Float(old)+Float(xin))/(Float(number)+1)).round(2)
       if @game.update({"point":v})
         format.html { redirect_to @game, notice: '打分成功' }
         format.json { render :show, status: :ok, location: @game }

@@ -22,10 +22,7 @@
     <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +175,8 @@
       <workItem from="1610165296153" duration="2526000" />
       <workItem from="1610173326736" duration="4390000" />
       <workItem from="1610179491059" duration="7582000" />
-      <workItem from="1610263640109" duration="3753000" />
+      <workItem from="1610263640109" duration="4403000" />
+      <workItem from="1610282575809" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="妙啊">
       <created>1609997380606</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610186996841</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="妙啊">
+      <created>1610267664501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610267664501</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
