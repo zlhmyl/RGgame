@@ -21,26 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c8137949-ec5a-4010-99e8-e02a8799d6ab" name="Default Changelist" comment="妙啊">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/game.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/game_score.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/game.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/game_score.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/game_score_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/game_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/game_score_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/_game.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210107052523_create_games.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210107052523_create_games.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/game_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/game_score_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +177,8 @@
       <workItem from="1610003660662" duration="1679000" />
       <workItem from="1610165296153" duration="2526000" />
       <workItem from="1610173326736" duration="4390000" />
-      <workItem from="1610179491059" duration="7343000" />
+      <workItem from="1610179491059" duration="7582000" />
+      <workItem from="1610263640109" duration="3753000" />
     </task>
     <task id="LOCAL-00001" summary="妙啊">
       <created>1609997380606</created>
@@ -229,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610167688903</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="妙啊">
+      <created>1610186996841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610186996841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,10 +269,10 @@
       <screen x="72" y="27" width="2086" height="1188" />
     </state>
     <state x="779" y="286" key="run.anything.popup/72.27.2086.1188@72.27.2086.1188" timestamp="1610004889549" />
-    <state x="778" y="292" width="672" height="678" key="search.everywhere.popup" timestamp="1610183913573">
+    <state x="778" y="292" width="672" height="678" key="search.everywhere.popup" timestamp="1610265231917">
       <screen x="72" y="27" width="2086" height="1185" />
     </state>
-    <state x="778" y="292" width="672" height="678" key="search.everywhere.popup/72.27.2086.1185@72.27.2086.1185" timestamp="1610183913573" />
+    <state x="778" y="292" width="672" height="678" key="search.everywhere.popup/72.27.2086.1185@72.27.2086.1185" timestamp="1610265231917" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RGgame@Production__RGgame.rcov" NAME="Production: RGgame Coverage Results" MODIFIED="1610005320664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RGgame" />

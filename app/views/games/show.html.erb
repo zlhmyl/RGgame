@@ -3,23 +3,23 @@
         <div class="panel">
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
+<p align="center">
+  <strong>游戏名称:</strong>
   <%= @game.name %>
 </p>
 
-<p>
-  <strong>Type:</strong>
+<p align="center">
+  <strong>游戏类型:</strong>
   <%= @game.type %>
 </p>
 
-<p>
-  <strong>Info:</strong>
+<p align="center">
+  <strong>详细信息:</strong>
   <%= @game.info %>
 </p>
 
-<p>
-  <strong>Score:</strong>
+<p align="center">
+  <strong>得分:</strong>
   <%= @game.point %>
 </p>
 <% if logged_in? %>
